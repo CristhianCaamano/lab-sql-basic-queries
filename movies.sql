@@ -10,9 +10,13 @@ SELECT first_name FROM staff;
 SELECT DISTINCT release_year FROM film;
 
 SELECT COUNT(*) FROM store;
+
 SELECT COUNT(*) FROM staff;
+
 SELECT COUNT(DISTINCT film_id) AS available_films FROM inventory;
+
 SELECT COUNT(*) AS rented_films FROM rental;
+
 SELECT COUNT(DISTINCT last_name) AS distinct_actors FROM actor;
 
 SELECT title, length FROM film ORDER BY length DESC LIMIT 10;
